@@ -21,11 +21,6 @@ website:
         text: LinkedIn
   page-navigation: true
 
-metadata:
-  keywords: ["resume", "portfolio", "ethan lobo", "cognitive science", "coding", "web development", "AI", "machine learning", "Big Data", "data science", "data visualization", "data analysis", "computer science", "data engineering", "data structures"]
-  description: "Portfolio site and resume of Ethan Lobo."
-  author: "Ethan Lobo"
-
 format:
   html:
     theme:
