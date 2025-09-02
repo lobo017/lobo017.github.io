@@ -1,9 +1,28 @@
 /* css styles */
 .resume-frame{
     width: 100%;
-    height: 1000px;
+    height: 80vh;
+    max-height: 1000px;
     border: 1px solid #e2e8f0;
     border-radius: 0.5rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+}
+
+body {
+    font-family: "Inter", "Segoe UI", sans-serif;
+    line-height: 1.6;
+}
+
+@media (prefers-color-scheme: dark) {
+    .resume-frame {
+        border-color: #444;
+        box-shadow: 0 4px 6px rgba(255, 255, 255, 0.05);
+    }
+}
+
+/* Hide the visible metadata block on about pages */
+.quarto-title-meta,
+.keywords {
+  display: none !important;
 }

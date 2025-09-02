@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Lobos Labs"
+  description: "Personal site and portfolio of Ethan Lobo"
   navbar:
     right:
       - href: index.qmd
@@ -16,9 +17,14 @@ website:
         href: https://github.com/lobo017
         text: GitHub
       - icon: linkedin
-        href: https://www.linkedin.com/in/lobo017
+        href: https://www.linkedin.com/in/ethanlobo/
         text: LinkedIn
   page-navigation: true
+
+metadata:
+  keywords: ["resume", "portfolio", "ethan lobo", "cognitive science", "coding", "web development", "AI", "machine learning", "Big Data", "data science", "data visualization", "data analysis", "computer science", "data engineering", "data structures"]
+  description: "Portfolio site and resume of Ethan Lobo."
+  author: "Ethan Lobo"
 
 format:
   html:
@@ -27,6 +33,3 @@ format:
       - brand
     css: styles.css
     toc: true
-
-
-
