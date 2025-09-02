@@ -1,0 +1,6 @@
+---
+title: "Resume"
+---
+You can view my resume directly below or [download it here.](./resume.pdf).
+
+<iframe src="./resume.pdf" class="resume-frame"></iframe>

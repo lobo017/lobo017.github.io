@@ -1,0 +1,11 @@
+---
+title: "Projects"
+listing:
+  contents: "**/*.qmd" # This will find all .qmd files in this folder and its subfolders
+  sort: "date desc"
+  type: default
+  categories: true
+  
+---
+
+Listed below are my projects.

@@ -1,0 +1,17 @@
+---
+title: "Ethan Lobo"
+image: ethan-lobo.png
+about:
+    template: trestles
+    id: about-me 
+    links:
+        - icon: github
+          text: GitHub
+          href: https://github.com/lobo017
+        - icon: linkedin
+          text: LinkedIn
+          href: https://www.linkedin.com/in/lobo017
+        
+---
+
+Hello! My name is Ethan Lobo and I am currently a First-Year Graduate Student at the University of Texas at Dallas studying Applied Cognition and Neuroscience, specializing in Computational Models and Intelligent Systems. 

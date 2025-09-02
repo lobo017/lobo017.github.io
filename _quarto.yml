@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Lobos Labs"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - href: projects/projects.qmd
+        text: Projects
+      - href: resume.qmd
+        text: Resume
+      - icon: github
+        href: https://github.com/lobo017
+        text: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/lobo017
+        text: LinkedIn
+  page-navigation: true
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+
+
