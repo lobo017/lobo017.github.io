@@ -1,16 +1,23 @@
 [
   {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "You can view my resume directly below or download it here.."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Ethan Lobo",
     "section": "",
-    "text": "Hello! I am a passionate data analyst with a background in… I enjoy using R and Python to uncover insights from complex datasets. Welcome to my portfolio!"
+    "text": "Hello! My name is Ethan Lobo and I am currently a First-Year Graduate Student at the University of Texas at Dallas studying Applied Cognition and Neuroscience, specializing in Computational Models and Intelligent Systems."
   },
   {
     "objectID": "projects/projects.html",
     "href": "projects/projects.html",
     "title": "Projects",
     "section": "",
-    "text": "This is my projects\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Listed below are my projects.\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
