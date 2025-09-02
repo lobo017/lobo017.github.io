@@ -10,7 +10,7 @@ about:
           href: https://github.com/lobo017
         - icon: linkedin
           text: LinkedIn
-          href: https://www.linkedin.com/in/lobo017
+          href: https://www.linkedin.com/in/ethanlobo/
         
 ---
 
