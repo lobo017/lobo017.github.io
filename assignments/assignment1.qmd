@@ -1,0 +1,13 @@
+---
+title: "Assignment 1"
+---
+
+# Website Design Note
+
+My website was designed using [Quarto](https://quarto.org/) in Visual Studio Code to ensure a professional and modern appearance. I selected the **Cosmo** theme from the Bootstrap family for its clean layout and responsive design, making the site accessible on various devices.
+
+The navigation bar at the top of the site provides quick access to important sections, including my resume, LinkedIn, GitHub, and a dedicated area for assignments and projects. This allows visitors to easily view my academic work and professional profiles.
+
+Content organization was a key focus so each assignment is placed in its own page for clarity with the main page introducing the site and its purpose. Quarto’s markdown-based workflow made it simple to format text, add links, and manage multiple pages.
+
+Overall, the design emphasizes usability, professionalism, and ease of navigation, reflecting both my technical skills and attention to detail.

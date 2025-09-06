@@ -14,6 +14,13 @@
     "text": "Hello! My name is Ethan Lobo and I am currently a First-Year Graduate Student at the University of Texas at Dallas studying Applied Cognition and Neuroscience, specializing in Computational Models and Intelligent Systems.\nThank you for visiting. If you’re interested in my work, please feel free to explore my projects. I am always open to new ideas and collaborations!"
   },
   {
+    "objectID": "assignments/assignment1.html",
+    "href": "assignments/assignment1.html",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "Website Design Note\nMy website was designed using Quarto in Visual Studio Code to ensure a professional and modern appearance. I selected the Cosmo theme from the Bootstrap family for its clean layout and responsive design, making the site accessible on various devices.\nThe navigation bar at the top of the site provides quick access to important sections, including my resume, LinkedIn, GitHub, and a dedicated area for assignments and projects. This allows visitors to easily view my academic work and professional profiles.\nContent organization was a key focus so each assignment is placed in its own page for clarity with the main page introducing the site and its purpose. Quarto’s markdown-based workflow made it simple to format text, add links, and manage multiple pages.\nOverall, the design emphasizes usability, professionalism, and ease of navigation, reflecting both my technical skills and attention to detail."
+  },
+  {
     "objectID": "projects/projects.html",
     "href": "projects/projects.html",
     "title": "Projects",

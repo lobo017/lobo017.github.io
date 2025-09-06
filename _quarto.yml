@@ -9,6 +9,9 @@ website:
     right:
       - href: index.qmd
         text: Home
+      - text: Assignments
+        menu: 
+          - assignments/assignment1.qmd
       - href: projects/projects.qmd
         text: Projects
       - href: resume.qmd

@@ -20,9 +20,3 @@ body {
         box-shadow: 0 4px 6px rgba(255, 255, 255, 0.05);
     }
 }
-
-/* Hide the visible metadata block on about pages */
-.quarto-title-meta,
-.keywords {
-  display: none !important;
-}
