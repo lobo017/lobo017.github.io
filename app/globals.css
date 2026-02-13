@@ -22,3 +22,24 @@ body {
 .focus-ring {
   @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background;
 }
+
+@keyframes shimmer {
+  0% { background-position: 200% center; }
+  100% { background-position: -200% center; }
+}
+
+.name-shimmer {
+  background: linear-gradient(
+    90deg,
+    #e5e7eb 0%,
+    #06b6d4 25%,
+    #ffffff 50%,
+    #06b6d4 75%,
+    #e5e7eb 100%
+  );
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 8s linear infinite;
+}
