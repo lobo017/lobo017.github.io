@@ -1,33 +1,33 @@
 export const experienceItems = [
   {
     role: "Service Desk Analyst",
-    company: "University of Texas at Dallas – Office of Information Technology",
-    period: "Aug 2025 – Present",
+    company: "University of Texas at Dallas \u2013 Office of Information Technology",
+    period: "Aug 2025 \u2013 Present",
     summary:
-      "I solve critical technical issues for university staff and students, focusing on identity management and enterprise systems like Amazon Connect and Duo. It’s troubleshooting at scale—diagnosing the root cause of access failures and ensuring infrastructure reliability."
+      "I troubleshoot identity management, access control, and enterprise platform issues for a university of 30,000+ users. Most problems look simple on the surface but trace back to systemic misconfigurations. I focus on finding the root cause, not just the quick fix, and I document patterns so the same failures stop recurring."
   },
   {
     role: "Operations & Data Intern",
     company: "EDP Renewables North America",
-    period: "May 2024 – Aug 2024",
+    period: "May 2024 \u2013 Aug 2024",
     summary:
-      "Worked with the operations team to make sense of production data. I built automated reporting workflows and analyzed performance metrics to help engineers identify inefficiencies in distributed energy assets."
+      "I automated reporting workflows that the operations team had been running by hand and built dashboards to surface performance gaps across distributed energy assets. The goal was always the same: make the data useful before someone has to ask for it."
   },
   {
     role: "Sales Representative",
     company: "Prime Communications (AT&T Authorized Retailer)",
-    period: "May 2023 – Aug 2023",
+    period: "May 2023 \u2013 Aug 2023",
     summary:
-      "Customer-facing role where I had to solve problems on the spot. I balanced technical troubleshooting with sales targets, learning how to explain complex plans and device issues to non-technical customers."
+      "Explained complex service plans and device configurations to non-technical customers under time pressure. The biggest lesson was learning how to translate technical detail into language that actually helps someone make a decision."
   }
 ];
 
 export const projects = [
   {
     title: 'MetaCrawler',
-    status: 'AI-powered engine',
+    status: 'Active',
     description:
-      'I needed a better way to research online, so I built an engine that crawls, categorizes, and summarizes web documents. It cuts through the noise to find relevant signals.',
+      'Online research is noisy. I got tired of sifting through irrelevant results, so I built an engine that crawls, categorizes, and summarizes web documents automatically. It surfaces what matters and discards what does not.',
     link: 'https://github.com/lobo017/MetaCrawler',
     tags: ['Python', 'NLP', 'Search'],
   },
@@ -35,7 +35,7 @@ export const projects = [
     title: 'RoleRank',
     status: 'In Progress',
     description:
-      'I realized most resumes get filtered out by algorithms. I built an LLM-based tool that parses resumes against job descriptions to identify keywords and optimize formatting for ATS systems.',
+      'Qualified candidates get filtered out by keyword-matching algorithms every day. RoleRank parses resumes against job descriptions using an LLM to identify gaps, suggest improvements, and optimize formatting for applicant tracking systems.',
     link: 'https://github.com/lobo017/RoleRank',
     tags: ['Python', 'LLM', 'Parsing'],
   },
@@ -43,7 +43,7 @@ export const projects = [
     title: 'Circadian Lens',
     status: 'In Progress',
     description:
-      'Exploring the link between sleep and cognition. I’m building a dashboard to visualize how nightly patterns affect daily performance using real behavioral data.',
+      'My cognitive science background made me curious about how sleep patterns shape daily performance. This dashboard visualizes real behavioral data to map the relationship between nightly rest and next-day output.',
     link: 'https://github.com/lobo017/CircadianLens',
     tags: ['Data Analytics', 'ML', 'Visualization'],
   },

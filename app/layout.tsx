@@ -4,7 +4,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'Ethan Lobo | Portfolio',
   description:
-    'Ethan Daniel Lobo - Software Developer & Data Analytics portfolio blending cognitive science with performant engineering.',
+    'Ethan Lobo builds software that makes systems simpler, faster, and more reliable. Cognitive science background, engineering mindset, leadership trajectory.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

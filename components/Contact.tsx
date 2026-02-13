@@ -7,14 +7,14 @@ export function Contact() {
       <Reveal>
         <SectionHeading
           eyebrow="Contact"
-          title="Let’s build something meaningful."
-          subtitle="Open to software engineering and data analytics opportunities."
+          title="Let's talk."
+          subtitle="Open to engineering, analytics, and leadership-track roles."
         />
       </Reveal>
       <Reveal delay={0.1}>
         <div className="card-surface grid gap-6 p-8 md:grid-cols-[2fr_1fr] md:items-center">
           <p className="text-slate-300">
-            The fastest way to connect is through Email or LinkedIn. I'd love to discuss potential opportunities or just to talk!
+            If you are working on something interesting, or if you think we could build something better together, I want to hear about it. Email and LinkedIn are the fastest ways to reach me.
           </p>
           <div className="flex flex-col gap-3">
             <a

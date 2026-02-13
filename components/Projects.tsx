@@ -8,8 +8,8 @@ export function Projects() {
       <Reveal>
         <SectionHeading
           eyebrow="Projects"
-          title="Flagship builds"
-          subtitle="Tools for productivity, analysis, and discovery."
+          title="Things I've built."
+          subtitle="Each one started with a problem I wanted gone."
         />
       </Reveal>
       <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">

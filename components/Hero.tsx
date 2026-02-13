@@ -4,11 +4,11 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const phrases = [
-  'building tools that actually work.',
-  'making sense of complex systems.',
-  'cognitive science meets engineering.',
-  'analyzing data, solving problems.',
-  'reliable software, clear thinking.',
+  'finding the optimization nobody else noticed.',
+  'building tools that remove friction.',
+  'thinking in systems, not isolated tasks.',
+  'turning messy data into clear decisions.',
+  'automating what should never be manual.',
 ];
 
 function RotatingTagline() {
@@ -48,7 +48,7 @@ export function Hero() {
         transition={{ duration: 0.6 }}
         className="mb-4 inline-block rounded-full border border-cyan-700/40 bg-cyan-900/20 px-4 py-1 text-sm text-cyan-200"
       >
-        Software Developer & Cognitive Scientist
+        Systems Thinker. Builder. Problem Solver.
       </motion.p>
 
       <motion.h1
@@ -75,7 +75,7 @@ export function Hero() {
         transition={{ duration: 0.7, delay: 0.3 }}
         className="mt-5 max-w-2xl text-lg text-slate-400"
       >
-        I combine engineering with cognitive science to create software that makes sense. I care about systems thinking, operational efficiency, and building tools that improve how people work.
+        I studied how people think, then started building the software they actually need. My work sits at the intersection of cognitive science, data, and engineering. I gravitate toward systems that can be made simpler, faster, or more reliable.
       </motion.p>
     </section>
   );

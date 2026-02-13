@@ -85,7 +85,7 @@ export function TechMarquee() {
   return (
     <section className="section-shell overflow-hidden" aria-label="Tech Stack">
       <Reveal>
-        <SectionHeading eyebrow="Toolbox" title="The Stack" />
+        <SectionHeading eyebrow="Toolbox" title="Tools I reach for." />
       </Reveal>
       <div
         className="card-surface overflow-hidden py-5"
