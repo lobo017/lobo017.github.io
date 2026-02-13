@@ -41,7 +41,7 @@ function RotatingTagline() {
 
 export function Hero() {
   return (
-    <section className="section-shell pb-12 pt-28 md:pt-36" aria-label="Hero">
+    <section className="section-shell pb-16 pt-32 md:pb-24 md:pt-44" aria-label="Hero">
       <motion.p
         initial={{ opacity: 0, y: 16 }}
         animate={{ opacity: 1, y: 0 }}
@@ -55,7 +55,7 @@ export function Hero() {
         initial={{ opacity: 0, y: 22 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, delay: 0.1 }}
-        className="mb-3 text-6xl font-extrabold tracking-tight text-foreground md:text-8xl"
+        className="name-shimmer mb-3 text-6xl font-extrabold tracking-tight md:text-8xl"
       >
         Ethan Lobo
       </motion.h1>
@@ -73,10 +73,31 @@ export function Hero() {
         initial={{ opacity: 0, y: 22 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, delay: 0.3 }}
-        className="mt-5 max-w-2xl text-lg text-slate-400"
+        className="mt-5 max-w-2xl text-lg leading-relaxed text-slate-400"
       >
         I studied how people think, then started building the software they actually need. My work sits at the intersection of cognitive science, data, and engineering. I gravitate toward systems that can be made simpler, faster, or more reliable.
       </motion.p>
+
+      <motion.div
+        initial={{ opacity: 0, y: 22 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.7, delay: 0.45 }}
+        className="mt-8 flex flex-wrap gap-4"
+      >
+        <a
+          href="#projects"
+          className="focus-ring inline-flex items-center gap-2 rounded-lg bg-accent px-5 py-2.5 font-medium text-slate-950 transition-colors hover:bg-cyan-300"
+        >
+          View projects
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m6 17 5-5-5-5"/><path d="m13 17 5-5-5-5"/></svg>
+        </a>
+        <a
+          href="#contact"
+          className="focus-ring inline-flex items-center gap-2 rounded-lg border border-cyan-700/50 px-5 py-2.5 font-medium text-cyan-100 transition-colors hover:bg-cyan-900/30"
+        >
+          Get in touch
+        </a>
+      </motion.div>
     </section>
   );
 }

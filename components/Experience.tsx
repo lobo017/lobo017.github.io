@@ -13,11 +13,11 @@ export function Experience() {
           <Reveal key={item.role} delay={0.08 * index}>
             <li className="relative mb-8">
               <span className="absolute -left-[39px] top-[26px] h-3.5 w-3.5 rounded-full bg-accent shadow-glow" aria-hidden />
-              <div className="card-surface p-6">
+              <div className="card-surface p-6 transition-all duration-300 hover:border-accent/50 hover:shadow-glow">
                 <p className="text-sm uppercase tracking-wide text-cyan-300">{item.period}</p>
                 <h3 className="mt-2 text-xl font-semibold">{item.role}</h3>
-                <p className="text-slate-300">{item.company}</p>
-                <p className="mt-3 text-slate-300">{item.summary}</p>
+                <p className="text-sm text-slate-400">{item.company}</p>
+                <p className="mt-3 leading-relaxed text-slate-300">{item.summary}</p>
               </div>
             </li>
           </Reveal>
