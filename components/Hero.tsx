@@ -4,11 +4,11 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const phrases = [
-  'finding the optimization nobody else noticed.',
-  'building tools that remove friction.',
-  'thinking in systems, not isolated tasks.',
-  'turning messy data into clear decisions.',
-  'automating what should never be manual.',
+  'M.S. Applied Cognition & Neuroscience @ UTD.',
+  'Service Desk Analyst @ UTD OIT.',
+  'software engineering & systems design.',
+  'where cognition meets code.',
+  'full-stack & data engineering.',
 ];
 
 function RotatingTagline() {
