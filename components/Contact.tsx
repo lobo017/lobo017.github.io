@@ -15,14 +15,14 @@ export function Contact() {
         <Reveal>
           <SectionHeading
             eyebrow="Contact"
-            title="Let's talk."
-            subtitle="Open to engineering, analytics, and leadership-track roles."
+            title="Reach out!"
+            subtitle="Always happy to meet people who build things."
           />
         </Reveal>
         <Reveal delay={0.1}>
           <div className="card-surface grid gap-6 p-8 md:grid-cols-[2fr_1fr] md:items-center">
             <p className="leading-relaxed text-slate-300">
-              If you are working on something interesting, or if you think we could build something better together, I want to hear about it. Email and LinkedIn are the fastest ways to reach me.
+              If you&apos;re working on something interesting — or just want to talk shop about systems, data, or cognition — reach out. Email and LinkedIn are the fastest ways.
             </p>
             <div className="flex flex-col gap-3">
               <a
@@ -32,7 +32,7 @@ export function Contact() {
                 rel="noreferrer"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-                Send a message
+                Drop me a line
               </a>
               <a
                 className="focus-ring inline-flex items-center justify-center gap-2 rounded-lg border border-cyan-700/50 px-4 py-2.5 font-medium text-cyan-100 transition hover:bg-cyan-900/30"

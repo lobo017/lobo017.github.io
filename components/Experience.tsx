@@ -6,7 +6,7 @@ export function Experience() {
   return (
     <section className="section-shell" id="experience" aria-label="Experience">
       <Reveal>
-        <SectionHeading eyebrow="Experience" title="Where I've built and learned." />
+        <SectionHeading eyebrow="Experience" title="Where I've spent time" />
       </Reveal>
       <ol className="relative ml-4 border-l border-cyan-900/40 pl-8">
         {experienceItems.map((item, index) => (

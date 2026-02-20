@@ -4,11 +4,11 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const phrases = [
-  'M.S. Applied Cognition & Neuroscience @ UTD.',
-  'Service Desk Analyst @ UTD OIT.',
-  'software engineering & systems design.',
-  'where cognition meets code.',
-  'full-stack & data engineering.',
+  'M.S. Applied Cognition & Neuroscience @ UTD',
+  'Service Desk Analyst @ UTD OIT',
+  'Software Engineering & Systems Design',
+  'Computational Models & Intelligent Systems',
+  'Full-Stack & Data Engineering',
 ];
 
 function RotatingTagline() {

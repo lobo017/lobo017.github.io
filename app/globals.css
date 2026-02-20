@@ -54,6 +54,13 @@ body::before {
   100% { background-position: -200% center; }
 }
 
+.project-card {
+  --hover-rotate: 0deg;
+}
+.project-card:hover {
+  transform: translateY(-4px) rotate(var(--hover-rotate));
+}
+
 .name-shimmer {
   background: linear-gradient(
     90deg,
