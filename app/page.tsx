@@ -5,21 +5,21 @@ import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
 import { Hero } from '@/components/Hero';
 import { Projects } from '@/components/Projects';
-import { TechMarquee } from '@/components/TechMarquee';
+import { SkillsGrid } from '@/components/SkillsGrid';
 
 export default function Home() {
   return (
-    <main className="pb-0">
+    <main id="main-content" className="pb-0">
       <Header />
       <Hero />
       <div className="section-divider" />
-      <Projects />
+      <About />
       <div className="section-divider" />
       <Experience />
       <div className="section-divider" />
-      <TechMarquee />
+      <Projects />
       <div className="section-divider" />
-      <About />
+      <SkillsGrid />
       <div className="section-divider" />
       <Contact />
       <Footer />

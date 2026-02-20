@@ -25,7 +25,7 @@ function ExternalLinkIcon() {
 }
 
 // Slight rotation variations so cards don't all hover identically
-const hoverRotations = ['-0.6deg', '0.4deg', '-0.3deg', '0.5deg', '-0.4deg'];
+const hoverRotations = ['-0.4deg', '0deg', '0.4deg'];
 
 export function Projects() {
   return (
@@ -33,8 +33,8 @@ export function Projects() {
       <Reveal>
         <SectionHeading
           eyebrow="Projects"
-          title="Things I've built"
-          subtitle="A collection of tools and experiments built to simplify workflows and solve practical problems."
+          title="What I've built"
+          subtitle="Tools and systems designed to solve real problems — not just demos."
         />
       </Reveal>
       <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
@@ -56,7 +56,27 @@ export function Projects() {
                     {project.status}
                   </span>
                 </div>
-                <p className="leading-relaxed text-slate-300">{project.description}</p>
+
+                {/* Problem */}
+                <p className="text-sm font-medium text-slate-400 uppercase tracking-wide mb-1">Problem</p>
+                <p className="text-slate-300 leading-relaxed text-sm">{project.problem}</p>
+
+                {/* What I built */}
+                <p className="text-sm font-medium text-slate-400 uppercase tracking-wide mt-4 mb-1">What I built</p>
+                <p className="text-slate-300 leading-relaxed text-sm">{project.contribution}</p>
+
+                {/* Architecture */}
+                {project.architecture && (
+                  <p className="mt-3 text-xs font-mono text-cyan-400/80">
+                    <span className="text-slate-500 uppercase tracking-wide font-sans text-[10px] font-medium mr-2">Arch:</span>
+                    {project.architecture}
+                  </p>
+                )}
+
+                {/* Outcome */}
+                <p className="text-sm font-medium text-slate-400 uppercase tracking-wide mt-4 mb-1">Outcome</p>
+                <p className="text-slate-300 leading-relaxed text-sm">{project.outcome}</p>
+
                 <ul className="mt-auto flex flex-wrap gap-2 pt-6">
                   {project.tags.map((tag) => (
                     <li key={tag} className="rounded-md border border-slate-700/50 bg-slate-800/80 px-2.5 py-1 text-xs font-medium text-slate-200">

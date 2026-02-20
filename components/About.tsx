@@ -2,31 +2,35 @@ import { Reveal } from './Reveal';
 import { SectionHeading } from './SectionHeading';
 
 const highlights = [
-  { label: 'Studying', value: 'M.S. Applied Cognition & Neuroscience' },
-  { label: 'Working at', value: 'UT Dallas OIT' },
-  { label: 'Focus', value: 'Computational Models & Intelligent Systems.' },
-  { label: 'Led', value: 'President & VP Internal Affairs, KTP' },
+  { label: 'Education', value: 'M.S. Applied Cognition & Neuroscience, UT Dallas' },
+  { label: 'Current role', value: 'Service Desk Analyst, UTD OIT' },
+  { label: 'Focus areas', value: 'Python · Backend Systems · Data Pipelines · Automation' },
+  { label: 'Leadership', value: 'President & VP Internal Affairs, Kappa Theta Pi' },
+  { label: 'Driven by', value: 'Root-cause analysis, workflow automation, system reliability' },
 ];
 
 export function About() {
   return (
     <section className="section-shell" id="about" aria-label="About Ethan Lobo">
       <Reveal>
-        <SectionHeading eyebrow="About" title="Things to know" />
+        <SectionHeading eyebrow="About" title="Who I am" />
       </Reveal>
       <Reveal delay={0.1}>
         <div className="card-surface p-8 md:p-10">
           <div className="grid gap-8 md:grid-cols-[2fr_1fr] md:gap-12">
             {/* Narrative column */}
-            <div className="max-w-3xl leading-relaxed text-slate-200">
+            <div className="max-w-3xl space-y-4 leading-relaxed text-slate-200">
               <p>
-                I notice inefficiencies the way most people notice typos — once I see one, I can&apos;t leave it alone. That instinct shapes how I approach everything: software, data, teams, processes.
+                I notice broken processes the way most people notice typos. That instinct drives everything I build — Python pipelines that replace manual work, diagnostic scripts that find root causes, crawlers that structure messy data.
               </p>
-              <p className="mt-4">
-                I started in Cognitive Science at UT Dallas because I wanted to understand how people process information and make decisions. That curiosity pulled me toward engineering. Now, finishing my M.S. in Applied Cognition and Neuroscience, I spend most of my time building tools and workflows that actually improve how people work — automating reporting pipelines for a renewables company, diagnosing identity management failures across a 30k-user university, that kind of thing. The question is always the same: what is this system doing, and how should it work instead?
+              <p>
+                I started in Cognitive Science because I wanted to understand how people process information and make decisions. That curiosity pulled me into engineering — where I could apply the same kind of structured thinking to systems, data, and automation.
               </p>
-              <p className="mt-4">
-                Outside of technical work, I care about the people around me. As President and VP of Internal Affairs for Kappa Theta Pi, I learned that good teams run on honest feedback, clear communication, and patience. I carry that into everything. Long term, I want to lead teams that build things worth using — not just write code, but shape how it gets built and why.
+              <p>
+                Now, finishing my M.S. in Applied Cognition &amp; Neuroscience at UT Dallas, I spend my time writing Python that does real work: automating reporting pipelines at a renewables company, diagnosing identity management failures across 30k+ users, and building crawlers that ingest and transform web data. The question is always the same: <em className="text-cyan-200 not-italic font-medium">where does this process break, and what can be automated instead?</em>
+              </p>
+              <p>
+                Outside of technical work, I led Kappa Theta Pi as President and VP of Internal Affairs — managing teams, running events, and learning that good engineering culture runs on honest feedback and clear communication. Long term, I want to lead teams that build things worth maintaining.
               </p>
             </div>
 

@@ -3,9 +3,10 @@
 import { useState } from 'react';
 
 const links = [
-  { href: '#projects', label: 'Projects' },
-  { href: '#experience', label: 'Experience' },
   { href: '#about', label: 'About' },
+  { href: '#experience', label: 'Experience' },
+  { href: '#projects', label: 'Projects' },
+  { href: '#skills', label: 'Skills' },
   { href: '#contact', label: 'Contact' },
 ];
 
@@ -20,18 +21,30 @@ export function Header() {
         </a>
 
         {/* Desktop nav */}
-        <ul className="hidden gap-4 text-sm text-slate-300 md:flex">
-          {links.map((link) => (
-            <li key={link.href}>
-              <a
-                className="focus-ring rounded-md px-2 py-1 transition hover:text-cyan-200"
-                href={link.href}
-              >
-                {link.label}
-              </a>
-            </li>
-          ))}
-        </ul>
+        <div className="hidden items-center gap-4 md:flex">
+          <ul className="flex gap-4 text-sm text-slate-300">
+            {links.map((link) => (
+              <li key={link.href}>
+                <a
+                  className="focus-ring rounded-md px-2 py-1 transition hover:text-cyan-200"
+                  href={link.href}
+                >
+                  {link.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+
+          {/* Resume CTA */}
+          <a
+            href="/Ethan_Lobo_Backend_Data_Focused_Engineer_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="focus-ring rounded-lg bg-accent px-4 py-1.5 text-sm font-medium text-slate-950 transition hover:bg-cyan-300"
+          >
+            Resume
+          </a>
+        </div>
 
         {/* Mobile hamburger */}
         <button
@@ -82,6 +95,17 @@ export function Header() {
                 </a>
               </li>
             ))}
+            <li>
+              <a
+                href="/Ethan_Lobo_Backend_Data_Focused_Engineer_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="focus-ring block rounded-lg bg-accent px-3 py-2 text-center font-medium text-slate-950 transition hover:bg-cyan-300"
+                onClick={() => setOpen(false)}
+              >
+                Download Resume
+              </a>
+            </li>
           </ul>
         </div>
       )}
