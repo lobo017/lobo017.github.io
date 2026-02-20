@@ -1,27 +1,26 @@
 export const experienceItems = [
   {
     role: "Service Desk Analyst",
-    company: "University of Texas at Dallas \u2013 Office of Information Technology",
-    period: "Aug 2025 \u2013 Present",
+    company: "University of Texas at Dallas – Office of Information Technology",
+    period: "Aug 2025 – Present",
     summary:
-      "I troubleshoot identity management, access control, and enterprise platform issues for a university of 30,000+ users. Most problems look simple on the surface but trace back to systemic misconfigurations. I focus on finding the root cause, not just the quick fix, and I document patterns so the same failures stop recurring."
+      "Troubleshoot identity management, access control, and enterprise platform issues across a 30,000+ user environment. Diagnose authentication failures, account provisioning errors, and permission conflicts that often stem from deeper configuration or policy misalignment. Emphasize root-cause analysis over temporary fixes and document recurring patterns to reduce repeat incidents and improve long-term system reliability."
   },
   {
-    role: "Operations & Data Intern",
+    role: "Interconnection Intern",
     company: "EDP Renewables North America",
-    period: "May 2024 \u2013 Aug 2024",
+    period: "May 2024 – Aug 2024",
     summary:
-      "I automated reporting workflows that the operations team had been running by hand and built dashboards to surface performance gaps across distributed energy assets. The goal was always the same: make the data useful before someone has to ask for it."
+      "Automated manual reporting workflows for the interconnection and operations teams using structured data pipelines and repeatable scripts, reducing turnaround time and human error. Built performance dashboards to surface bottlenecks across distributed energy assets, enabling faster identification of compliance risks and grid interconnection delays."
   },
   {
-    role: "Sales Representative",
+    role: "Operations Manager / Operations Analyst Intern",
     company: "Prime Communications (AT&T Authorized Retailer)",
-    period: "May 2023 \u2013 Aug 2023",
+    period: "May 2023 – Aug 2023",
     summary:
-      "Explained complex service plans and device configurations to non-technical customers under time pressure. The biggest lesson was learning how to translate technical detail into language that actually helps someone make a decision."
+      "Managed day-to-day retail operations while translating complex device configurations, service plans, and technical constraints into clear guidance for customers. Balanced sales performance with operational oversight, inventory coordination, and issue escalation under time pressure, strengthening communication and decision-making skills in high-volume environments."
   }
 ];
-
 export const projects = [
   {
     title: 'MetaCrawler',
