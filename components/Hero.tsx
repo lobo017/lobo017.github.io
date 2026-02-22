@@ -38,7 +38,7 @@ export function Hero() {
         transition={{ duration: 0.7, delay: 0.3 }}
         className="mt-5 max-w-2xl text-lg leading-relaxed text-slate-400"
       >
-        M.S. Applied Cognition &amp; Neuroscience at UT Dallas. I think in systems — how data flows, where processes break, and what can be automated. I write Python that&apos;s clean, tested, and built to last.
+        M.S. Applied Cognition &amp; Neuroscience at UT Dallas. I think in systems: how data flows, where processes break, and what can be automated. I write code that&apos;s clean, tested, and built to last.
       </motion.p>
 
       <motion.div

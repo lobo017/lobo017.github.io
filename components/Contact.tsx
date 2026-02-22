@@ -16,13 +16,13 @@ export function Contact() {
           <SectionHeading
             eyebrow="Contact"
             title="Let's connect"
-            subtitle="Open to Python-heavy backend and data systems roles — or just a good conversation about automation and infrastructure."
+            subtitle="Open to backend and data systems roles or just a good conversation."
           />
         </Reveal>
         <Reveal delay={0.1}>
           <div className="card-surface grid gap-6 p-8 md:grid-cols-[2fr_1fr] md:items-center">
             <p className="leading-relaxed text-slate-300">
-              If you&apos;re hiring for backend or data systems roles, want to collaborate on a project, or just want to talk shop about Python and infrastructure — I&apos;d love to hear from you. Email and LinkedIn are the fastest ways to reach me.
+              If you&apos;re hiring for backend or data systems roles, want to collaborate on a project, or just want to talk, I&apos;d love to hear from you. Email and LinkedIn are the fastest ways to reach me.
             </p>
             <div className="flex flex-col gap-3">
               <a
