@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Ethan Lobo — Python Engineer | Backend Systems & Data Pipelines',
+  title: 'Ethan Lobo',
   description:
     'Ethan Lobo builds backend systems, data pipelines, and automation tools in Python. M.S. Applied Cognition & Neuroscience at UT Dallas. Python, SQL, PostgreSQL, Go, TypeScript, Docker.',
 };
