@@ -1,4 +1,4 @@
-# Ethan Lobo — Portfolio
+# Ethan Lobo - Portfolio
 
 Personal site. Built to show what I've worked on and how I think about problems.
 
@@ -42,7 +42,6 @@ components/
   Hero.tsx           ← intro, rotating tagline, CTAs
   Projects.tsx       ← project cards from data
   Experience.tsx     ← timeline
-  TechMarquee.tsx    ← draggable scrolling tech strip
   About.tsx          ← narrative + highlights
   Contact.tsx        ← email / LinkedIn CTAs
   Footer.tsx         ← links, copyright
@@ -55,4 +54,4 @@ data/
 
 ## License
 
-Personal project — not intended for reuse, but feel free to reference the structure.
+Personal project - not intended for reuse, but feel free to reference the structure.

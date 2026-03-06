@@ -1,35 +1,33 @@
+'use client';
+
 import { skillCategories } from '@/data/portfolio';
 import { Reveal } from './Reveal';
 import { SectionHeading } from './SectionHeading';
+import { CategoryCard, ToolkitPanel } from '@/components/spline/ToolkitPanel';
 
 export function SkillsGrid() {
   return (
     <section className="section-shell" id="skills" aria-label="Technical Skills">
       <Reveal>
-        <SectionHeading eyebrow="Skills" title="Technical toolkit" />
+        <SectionHeading
+          eyebrow="Skills"
+          title="Technical toolkit"
+          subtitle="These are some of the tools I use most often. The stack usually depends on the problem."
+        />
       </Reveal>
       <Reveal delay={0.1}>
-        <div className="card-surface p-8 md:p-10">
-          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {skillCategories.map((cat) => (
-              <div key={cat.label}>
-                <h3 className="mb-3 text-sm font-medium uppercase tracking-widest text-cyan-400">
-                  {cat.label}
-                </h3>
-                <ul className="flex flex-wrap gap-2">
-                  {cat.skills.map((skill) => (
-                    <li
-                      key={skill}
-                      className="rounded-full border border-cyan-700/40 bg-cyan-900/10 px-3.5 py-1.5 text-sm text-cyan-100"
-                    >
-                      {skill}
-                    </li>
-                  ))}
-                </ul>
-              </div>
+        <ToolkitPanel>
+          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4">
+            {skillCategories.map((cat, index) => (
+              <CategoryCard
+                key={cat.label}
+                label={cat.label}
+                skills={cat.skills}
+                index={index}
+              />
             ))}
           </div>
-        </div>
+        </ToolkitPanel>
       </Reveal>
     </section>
   );

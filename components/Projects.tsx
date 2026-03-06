@@ -34,7 +34,7 @@ export function Projects() {
         <SectionHeading
           eyebrow="Projects"
           title="What I've built"
-          subtitle="Tools and systems designed to solve real problems — not just demos."
+          subtitle="Tools and projects I built to explore ideas or solve real problems."
         />
       </Reveal>
       <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">

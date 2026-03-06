@@ -9,9 +9,19 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Ethan Lobo',
+  title: 'Ethan Lobo | Software Engineer',
   description:
-    'Ethan Lobo builds backend systems, data pipelines, and automation tools in Python. M.S. Applied Cognition & Neuroscience at UT Dallas. Python, SQL, PostgreSQL, Go, TypeScript, Docker.',
+    'Ethan Lobo is a software engineer who builds tools, web apps, and automation systems to solve complex problems. M.S. Applied Cognition & Neuroscience at UT Dallas.',
+  icons: {
+    icon: '/favicon.ico',
+  },
+  openGraph: {
+    title: 'Ethan Lobo | Software Engineer',
+    description: 'Ethan Lobo is a software engineer who builds tools, web apps, and automation systems to solve complex problems.',
+    url: 'https://lobo017.github.io',
+    siteName: 'Ethan Lobo Portfolio',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

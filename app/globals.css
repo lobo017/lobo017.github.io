@@ -90,6 +90,30 @@ body::before {
 }
 
 /* ----------------------------------------------------------------
+   Glass panel - ToolkitPanel wrapper
+   ---------------------------------------------------------------- */
+
+.glass-panel {
+  border-radius: 1rem;
+  border: 1px solid rgba(6, 182, 212, 0.12);
+  background: rgba(17, 24, 39, 0.55);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow:
+    0 0 0 1px rgba(6, 182, 212, 0.06),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+/* ----------------------------------------------------------------
+   Binary-fall keyframe - used by BinaryAccent
+   ---------------------------------------------------------------- */
+
+@keyframes binary-fall {
+  0%   { transform: translateY(-60%); }
+  100% { transform: translateY(0%); }
+}
+
+/* ----------------------------------------------------------------
    Skip-to-content link (WCAG 2.1 AA)
    ---------------------------------------------------------------- */
 
@@ -119,7 +143,7 @@ body::before {
 }
 
 /* ----------------------------------------------------------------
-   Reduced motion — WCAG 2.1 AA compliance
+   Reduced motion - WCAG 2.1 AA compliance
    ---------------------------------------------------------------- */
 
 @media (prefers-reduced-motion: reduce) {
@@ -130,5 +154,11 @@ body::before {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+
+  /* Freeze binary accent and node network animations */
+  .binary-accent-col {
+    animation: none !important;
+    opacity: 0.025 !important;
   }
 }

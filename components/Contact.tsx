@@ -1,5 +1,6 @@
 import { Reveal } from './Reveal';
 import { SectionHeading } from './SectionHeading';
+import { BinaryAccent } from '@/components/spline/BinaryAccent';
 
 export function Contact() {
   return (
@@ -11,18 +12,21 @@ export function Contact() {
       {/* Gradient background */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-cyan-950/10 to-cyan-950/20 pointer-events-none" aria-hidden="true" />
 
+      {/* Ambient binary accent - desktop only, aria-hidden, very low opacity */}
+      <BinaryAccent />
+
       <div className="section-shell relative">
         <Reveal>
           <SectionHeading
             eyebrow="Contact"
-            title="Let's connect"
-            subtitle="Open to backend and data systems roles or just a good conversation."
+            title="Let's talk"
+            subtitle="I'm always open to interesting engineering roles, projects, or conversations about building things."
           />
         </Reveal>
         <Reveal delay={0.1}>
           <div className="card-surface grid gap-6 p-8 md:grid-cols-[2fr_1fr] md:items-center">
             <p className="leading-relaxed text-slate-300">
-              If you&apos;re hiring for backend or data systems roles, want to collaborate on a project, or just want to talk, I&apos;d love to hear from you. Email and LinkedIn are the fastest ways to reach me.
+              If you want to talk about projects, engineering roles, or just interesting problems, feel free to reach out. Email or LinkedIn are the easiest ways to get in touch.
             </p>
             <div className="flex flex-col gap-3">
               <a

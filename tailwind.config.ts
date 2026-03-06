@@ -16,6 +16,8 @@ const config: Config = {
       },
       boxShadow: {
         glow: '0 0 0 1px rgba(6,182,212,.4), 0 0 32px rgba(6,182,212,.2)',
+        'inner-glow': 'inset 0 0 20px rgba(6,182,212,.06)',
+        'glow-sm': '0 0 0 1px rgba(6,182,212,.25), 0 0 16px rgba(6,182,212,.12)',
       },
       keyframes: {
         marquee: {
